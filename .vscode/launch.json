@@ -1,0 +1,353 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Sort012",
+      "request": "launch",
+      "mainClass": "Arrays.Sort012",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "RectangleSum",
+      "request": "launch",
+      "mainClass": "MultiDimensionArray.RectangleSum",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "GenerateSpiral",
+      "request": "launch",
+      "mainClass": "MultiDimensionArray.GenerateSpiral",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "MiscProb.RotateArray",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Smallestandlargest",
+      "request": "launch",
+      "mainClass": "Arrays.Smallestandlargest",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Power2",
+      "request": "launch",
+      "mainClass": "Recursion.Power2",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Power",
+      "request": "launch",
+      "mainClass": "Recursion.Power",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Recursion.Fibonacci",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Recursion.Factorial",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SumOfFirstN",
+      "request": "launch",
+      "mainClass": "Recursion.SumOfFirstN",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PrintDecreasing",
+      "request": "launch",
+      "mainClass": "Recursion.PrintDecreasing",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PrintNum",
+      "request": "launch",
+      "mainClass": "Recursion.PrintNum",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "StringCompression",
+      "request": "launch",
+      "mainClass": "Strings.StringCompression",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ReverserWordInSentence",
+      "request": "launch",
+      "mainClass": "Strings.ReverserWordInSentence",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PalindromicSubstrings",
+      "request": "launch",
+      "mainClass": "Strings.PalindromicSubstrings",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "Strings.Palindrome",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ToggleString",
+      "request": "launch",
+      "mainClass": "Strings.ToggleString",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Toggle",
+      "request": "launch",
+      "mainClass": "Strings.Toggle",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Builder",
+      "request": "launch",
+      "mainClass": "Strings.Builder",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Equals",
+      "request": "launch",
+      "mainClass": "Strings.Equals",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Performance",
+      "request": "launch",
+      "mainClass": "Strings.Performance",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ChangeString",
+      "request": "launch",
+      "mainClass": "Strings.ChangeString",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Interning",
+      "request": "launch",
+      "mainClass": "Strings.Interning",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "StringIntChar",
+      "request": "launch",
+      "mainClass": "Strings.StringIntChar",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Basics",
+      "request": "launch",
+      "mainClass": "Strings.Basics",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ReverseArrayList",
+      "request": "launch",
+      "mainClass": "ArrayList.ReverseArrayList",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListTutorial",
+      "request": "launch",
+      "mainClass": "ArrayList.ArrayListTutorial",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "WrapperClass",
+      "request": "launch",
+      "mainClass": "ArrayList.WrapperClass",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "MatrixMultiplication",
+      "request": "launch",
+      "mainClass": "MultiDimensionArray.MatrixMultiplication",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ArrayTwoD",
+      "request": "launch",
+      "mainClass": "MultiDimensionArray.ArrayTwoD",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "EqualSumPartition",
+      "request": "launch",
+      "mainClass": "PrefixSum.EqualSumPartition",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SumOfIndecies",
+      "request": "launch",
+      "mainClass": "PrefixSum.SumOfIndecies",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PrefixSumInplace",
+      "request": "launch",
+      "mainClass": "PrefixSum.PrefixSumInplace",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PrefixSumArray",
+      "request": "launch",
+      "mainClass": "PrefixSum.PrefixSumArray",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "NonDecreasingSquares",
+      "request": "launch",
+      "mainClass": "TwoPointer.NonDecreasingSquares",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SortOE",
+      "request": "launch",
+      "mainClass": "TwoPointer.SortOE",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SortOddEven",
+      "request": "launch",
+      "mainClass": "TwoPointer.SortOddEven",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Sort01TwoPointer",
+      "request": "launch",
+      "mainClass": "TwoPointer.Sort01TwoPointer",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Sort01",
+      "request": "launch",
+      "mainClass": "TwoPointer.Sort01",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PresentQuery",
+      "request": "launch",
+      "mainClass": "MiscProb.PresentQuery",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray2",
+      "request": "launch",
+      "mainClass": "MiscProb.RotateArray2",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "sum",
+      "request": "launch",
+      "mainClass": "Arrays.sum",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "FirstRepeatingNumber",
+      "request": "launch",
+      "mainClass": "Arrays.FirstRepeatingNumber",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SecondLargest",
+      "request": "launch",
+      "mainClass": "Arrays.SecondLargest",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "TripleSum",
+      "request": "launch",
+      "mainClass": "Arrays.TripleSum",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "TargetSum1",
+      "request": "launch",
+      "mainClass": "Arrays.TargetSum1",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Sortedornot",
+      "request": "launch",
+      "mainClass": "Arrays.Sortedornot",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/HP/Desktop/java-6-sem",
+      "program": "c:/Users/HP/Desktop/java-6-sem/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

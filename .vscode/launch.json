@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NthNodeFromLast",
+      "request": "launch",
+      "mainClass": "LinkedList.NthNodeFromLast",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "DoublyLL",
       "request": "launch",
       "mainClass": "LinkedList.DoublyLL",

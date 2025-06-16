@@ -49,6 +49,56 @@ public class DoublyLL {
         head=t;
         return head;
     }
+    public static void insertattail(Node head, int x){
+        Node temp= head;
+        while(temp.next!=null){
+            temp= temp.next;
+        }
+        Node t= new Node(x);
+        temp.next=t;
+        t.prev=temp;
+        temp=t;
+    }
+
+    public static void insertAtIdx(Node head, int idx, int x){
+        Node s= head;
+        for(int i=1; i<=idx-1; i++){
+            s= s.next;
+        }
+        Node r= s.next;
+        Node t= new Node(x);
+        // s.next=t;
+        // t.prev=s;
+        // t.next=r;
+        // r.prev=t;
+        //OR
+        t.next=r;
+        r.prev=t;
+        t.prev=s;
+        s.next=t;
+    }
+    public static void deleteAtHead(Node head){
+        head= head.next;
+        head.prev= null;
+    }
+    public static void deleteAtTail(Node head){
+        Node temp= head;
+        while(temp.next!= null){
+            temp=temp.next;
+        }
+        temp=temp.prev;
+        temp.next=null;
+
+    }
+    public static void deleteAtIndex(Node head, int idx){
+        Node temp= head;
+        for(int i=1; i<=idx-1; i++){
+            temp=temp.next;
+        }
+        temp.next=temp.next.next;
+        temp.next.prev=temp;
+
+    }
     public static void main(String[] args) {
         //4 10 2 99 13
         Node a= new Node(4);
@@ -67,10 +117,21 @@ public class DoublyLL {
         e.prev=d;
         e.next= null;
         display(a);
-        display2(e);
-        display3(c);
-        Node newhead= insertathead(a,35);
-        display(newhead);
+        // display2(e);
+        // display3(c);
+        // Node newhead= insertathead(a,35);
+        // display(newhead);
+        // insertattail(a,90 );
+        // display(a);
+        // insertAtIdx(a, 2, 15);
+        // display(a);
+        deleteAtHead(a);
+        display(a);
+        deleteAtTail(a);
+        display(a);
+        deleteAtIndex(a, 2);
+        display(a);
+
     }
     
 }

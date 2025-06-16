@@ -1,7 +1,8 @@
-package Arrays;
+package TwoPointer;
 import java.util.*;
 class Sort012 {
     // Function to sort an array of 0s, 1s, and 2s
+    //NOT TIME OPTIMIZED
     public static void sort012(int[] arr) {
         int zeroes=0;
         int ones= 0;

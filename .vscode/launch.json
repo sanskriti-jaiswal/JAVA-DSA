@@ -3,6 +3,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DoublyLL",
+      "request": "launch",
+      "mainClass": "LinkedList.DoublyLL",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Implementation",
+      "request": "launch",
+      "mainClass": "LinkedList.Implementation",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Basics",
+      "request": "launch",
+      "mainClass": "LinkedList.Basics",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "StudentClass",
+      "request": "launch",
+      "mainClass": "OOPS.StudentClass",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ReverseStack",
+      "request": "launch",
+      "mainClass": "Stacks.ReverseStack",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "RemoveFromStack",
+      "request": "launch",
+      "mainClass": "Stacks.RemoveFromStack",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "DisplayStack",
+      "request": "launch",
+      "mainClass": "Stacks.DisplayStack",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "InsertInStack",
+      "request": "launch",
+      "mainClass": "Stacks.InsertInStack",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "MoveStackInSameOrder",
+      "request": "launch",
+      "mainClass": "Stacks.MoveStackInSameOrder",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Basics",
+      "request": "launch",
+      "mainClass": "Stacks.Basics",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "Sort012",
       "request": "launch",
       "mainClass": "Arrays.Sort012",

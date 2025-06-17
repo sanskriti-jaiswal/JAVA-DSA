@@ -18,7 +18,7 @@ public class DoublyLL {
         System.out.println();
     }
 
-    public static void display2(Node tail){
+    public static void display2(Node tail){  //DISPLAY IN REVERSE
         Node temp= tail;
         while(temp!= null){
             System.out.print(temp.val+" ");
@@ -43,12 +43,14 @@ public class DoublyLL {
     }
 
     public static Node insertathead(Node head, int x){
-        Node t= new Node(30);
+        Node t= new Node(x);
         t.next= head;
         head.prev=t;
         head=t;
+        t.prev=null;
         return head;
     }
+
     public static void insertattail(Node head, int x){
         Node temp= head;
         while(temp.next!=null){
@@ -57,7 +59,7 @@ public class DoublyLL {
         Node t= new Node(x);
         temp.next=t;
         t.prev=temp;
-        temp=t;
+        
     }
 
     public static void insertAtIdx(Node head, int idx, int x){
@@ -101,6 +103,7 @@ public class DoublyLL {
     }
     public static void main(String[] args) {
         //4 10 2 99 13
+        //HARD-CODED LINKED LIST
         Node a= new Node(4);
         Node b= new Node(10);
         Node c= new Node(2);
@@ -119,10 +122,10 @@ public class DoublyLL {
         display(a);
         // display2(e);
         // display3(c);
-        // Node newhead= insertathead(a,35);
-        // display(newhead);
-        // insertattail(a,90 );
-        // display(a);
+        Node newhead= insertathead(a,35);
+        display(newhead);
+        insertattail(a,90 );
+        display(a);
         // insertAtIdx(a, 2, 15);
         // display(a);
         deleteAtHead(a);

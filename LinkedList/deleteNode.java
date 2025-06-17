@@ -8,7 +8,7 @@ public class deleteNode {
       ListNode next;
       ListNode(int x) { val = x; }
   }
- 
+ //DELETE NODE WHEN HEAD IS NOT GIVEN ONLY NODE IS GIVEN 
 
     public void deleteNode(ListNode node) {
         node.val= node.next.val;

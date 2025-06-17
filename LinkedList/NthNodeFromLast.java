@@ -8,6 +8,7 @@ public class NthNodeFromLast {
             this.data= data;
         }
     }
+    //BRUTE FORCE APPROACH
     public static Node nthNode(Node head, int n){
         int size=0;
         Node temp= head;
@@ -25,6 +26,7 @@ public class NthNodeFromLast {
         
     }
 
+    //EFFICIENT METHOD
     public static Node nthNode2(Node head, int n){
         Node slow= head;
         Node fast= head;
@@ -37,15 +39,12 @@ public class NthNodeFromLast {
         }
         return slow;
     }
+    
     public static void deletedNthNode(Node head, int n){
         Node slow=head;
         Node fast=head;
         for(int i=1; i<=n; i++ ){
-            fast= fast.next;
-        }if(fast==null){
-            head=head.next;
-            return;
-        }
+            fast= fast.next;}
         while(fast.next!=null){
             slow=slow.next;
             fast=fast.next;
@@ -85,8 +84,8 @@ public class NthNodeFromLast {
         deletedNthNode(a, 1);
         display(a);
         //EXCEPTION ERROR
-        deletedNthNode(a, 6);
-        display(a);
+        // deletedNthNode(a, 6);
+        // display(a);
 
     }
 }

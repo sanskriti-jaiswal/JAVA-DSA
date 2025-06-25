@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayImplementation",
+      "request": "launch",
+      "mainClass": "Queue.ArrayImplementation",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "DisplayQueue",
+      "request": "launch",
+      "mainClass": "Queue.DisplayQueue",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "BasicSTLImplementation",
+      "request": "launch",
+      "mainClass": "Queue.BasicSTLImplementation",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "LLImplementation",
       "request": "launch",
       "mainClass": "Stacks.LLImplementation",

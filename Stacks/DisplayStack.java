@@ -1,6 +1,8 @@
 package Stacks;
 import java.util.*;
 public class DisplayStack {
+
+    //WHILE DISPLAY RECURSIVELY, TC=0(n) AND SC= O(n) , since call stack is used
     public static void displayReverseRecusrsively(Stack<Integer> s){
         if(s.size()== 0){
             return;
@@ -30,7 +32,7 @@ public class DisplayStack {
         displayRecusrsively(st);
     
         // System.out.println(st);
-        //OR
+        //OR BUT HERE TC=0(n) AND SC= O(n)
         // Stack <Integer> rt= new Stack<>();
         // while(st.size()>0){
         //     rt.push(st.pop());
@@ -41,6 +43,7 @@ public class DisplayStack {
         //     st.push(x);
         // }
 
+
         //OR WITH ARRAYS
         // int n= st.size();
         // int[] arr= new int[n];
@@ -49,6 +52,7 @@ public class DisplayStack {
         // }
         // for(int i=0; i<n; i++){
         //     System.out.print(arr[i]+" ");
+        //     st.push(arr[i]);
         // }
 
     }

@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LLImplementation",
+      "request": "launch",
+      "mainClass": "Stacks.LLImplementation",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ArrayImplementation",
+      "request": "launch",
+      "mainClass": "Stacks.ArrayImplementation",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ReverseStackRecursively",
+      "request": "launch",
+      "mainClass": "Stacks.ReverseStackRecursively",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PushAtBottomRecursively",
+      "request": "launch",
+      "mainClass": "Stacks.PushAtBottomRecursively",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "LeftMiddle",
+      "request": "launch",
+      "mainClass": "LinkedList.LeftMiddle",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "NthNodeFromLast",
       "request": "launch",
       "mainClass": "LinkedList.NthNodeFromLast",

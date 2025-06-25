@@ -10,6 +10,7 @@ public class InsertInStack {
         st.push(4);
         st.push(5);
         System.out.println(st);
+        //index is from 0
         int idx= 2;
         int x=7;
         Stack <Integer> temp= new Stack<>();

@@ -1,6 +1,7 @@
 package Stacks;
 import java.util.*;
 public class ReverseStack {
+    //2 extra stacks are used SC=O(2n) = O(n)
     public static void main(String[] args) {
         Stack <Integer> st= new Stack<>();
         st.push(1);

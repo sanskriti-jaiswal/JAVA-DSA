@@ -1,6 +1,9 @@
 package Stacks;
 import java.util.*;
 public class MoveStackInSameOrder {
+    //TC= O(2n)= O(n)
+    //SC= O(n)
+    //We can use two stacks to reverse the order of elements in a stack.
     public static void main(String[] args) {
         Stack <Integer> st= new Stack<>();
         Scanner sc= new Scanner(System.in);

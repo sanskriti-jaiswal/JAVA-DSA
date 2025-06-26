@@ -3,7 +3,7 @@ import java.util.*;
 public class ReverseStackRecursively {
 
     public static void reverse(Stack<Integer> st){
-        if(st.size()==1){
+        if(st.size()==1){ //already reversed  
             return;
         }
         int top= st.pop();

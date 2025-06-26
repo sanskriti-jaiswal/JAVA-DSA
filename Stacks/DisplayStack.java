@@ -32,7 +32,8 @@ public class DisplayStack {
         displayRecusrsively(st);
     
         // System.out.println(st);
-        //OR BUT HERE TC=0(n) AND SC= O(n)
+        //OR BY USING STACK
+        // BUT HERE TC=0(n) AND SC= O(n)
         // Stack <Integer> rt= new Stack<>();
         // while(st.size()>0){
         //     rt.push(st.pop());
@@ -45,6 +46,7 @@ public class DisplayStack {
 
 
         //OR WITH ARRAYS
+        //TC= O(n) and extra space 
         // int n= st.size();
         // int[] arr= new int[n];
         // for(int i=n-1; i>=0; i--){

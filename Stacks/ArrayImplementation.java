@@ -3,7 +3,7 @@ import java.util.*;
 public class ArrayImplementation {
     public static class Stack{
         int[] arr= new int[5];
-        int idx= 0;
+        int idx= 0; //MOST IMP
         void push(int x){
             if(isFull()){
                 System.out.println("stack is full");
@@ -11,6 +11,7 @@ public class ArrayImplementation {
             }
             arr[idx]= x;
             idx++;
+            
         }
         int peek(){
             if(idx==0){

@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NextGreaterElement",
+      "request": "launch",
+      "mainClass": "Arrays.NextGreaterElement",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "NextGreaterElement",
+      "request": "launch",
+      "mainClass": "Stacks.NextGreaterElement",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "RemoveConsecutiveSubsequences",
+      "request": "launch",
+      "mainClass": "Stacks.RemoveConsecutiveSubsequences",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "MinimumBracketRemove",
+      "request": "launch",
+      "mainClass": "Stacks.MinimumBracketRemove",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "BalancedBrackets",
+      "request": "launch",
+      "mainClass": "Stacks.BalancedBrackets",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "STLDeque",
       "request": "launch",
       "mainClass": "Queue.STLDeque",

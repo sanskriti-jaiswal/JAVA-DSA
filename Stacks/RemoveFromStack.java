@@ -10,11 +10,12 @@ public class RemoveFromStack {
         st.push(5);
         System.out.println(st);
         Stack <Integer> rt= new Stack<>();
-        int idx= 1;
+        //we are removing 1
+        int idx= 1;  // index of element=2
         while(st.size()>idx){
             rt.push(st.pop());
         }
-        st.pop();
+        st.pop();   //1 is removed
         while(rt.size()>0){
             st.push(rt.pop());
         }

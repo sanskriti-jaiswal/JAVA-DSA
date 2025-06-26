@@ -11,8 +11,9 @@ public class InsertInStack {
         st.push(5);
         System.out.println(st);
         //index is from 0
+        //size is 1 when index is 0
         int idx= 2;
-        int x=7;
+        int x=7; //1 2 7 3 4 5
         Stack <Integer> temp= new Stack<>();
         while(st.size()>idx){
             temp.push(st.pop());

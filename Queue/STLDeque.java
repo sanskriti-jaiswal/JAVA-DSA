@@ -27,8 +27,6 @@ public class STLDeque {
         System.out.println(dq);
         dq.removeAll(dq);  //empty the deque
         System.out.println(dq);
-        dq.removeFirstOccurrence(1);
-        System.out.println(dq);
 
 
     }

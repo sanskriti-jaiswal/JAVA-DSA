@@ -9,7 +9,8 @@ public class LLImplementation {
         }
     }
     public static class LLStack{    //user-defined data structure
-        Node head= null;
+        Node head= null; //MOST IMP
+        //INSERT FROM HEAD POP FROM HEAD
         int size= 0;
         void push(int x){
             Node temp= new Node(x);
@@ -26,6 +27,7 @@ public class LLImplementation {
             System.out.println();
         }
 
+        //V IMP 
         void displayrec(Node h){
             if(h==null) return;
             displayrec(h.next);

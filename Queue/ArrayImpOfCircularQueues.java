@@ -98,7 +98,7 @@ public class ArrayImpOfCircularQueues {
         cq.add(7);// actual- 6 7 3 4 5 
         cq.display();
         // cq.add(8);
-        // cq.display();
+        // cq.display(); //3 4 5 6 7
         for(int i=0; i<cq.arr.length; i++){
             System.out.print(cq.arr[i]+" ");
         }

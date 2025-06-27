@@ -9,7 +9,7 @@ public class LinkedListImplementation {
         }
 
     }
-    public static class queueLL{    //user defined data structure
+    public static class queueLL{   //user defined data structure
         Node head=null;
         Node tail=null;
         int size=0;

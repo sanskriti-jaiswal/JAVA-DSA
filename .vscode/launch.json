@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReorderQueueUsingStack",
+      "request": "launch",
+      "mainClass": "Queue.ReorderQueueUsingStack",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ReverseFirstKElements",
+      "request": "launch",
+      "mainClass": "Queue.ReverseFirstKElements",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "ReverseQueue",
+      "request": "launch",
+      "mainClass": "Queue.ReverseQueue",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "NextGreaterElement",
       "request": "launch",
       "mainClass": "Arrays.NextGreaterElement",

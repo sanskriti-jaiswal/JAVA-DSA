@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaxFrequency",
+      "request": "launch",
+      "mainClass": "HashMap.MaxFrequency",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "HashMapMethods",
+      "request": "launch",
+      "mainClass": "HashMap.HashMapMethods",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "MapInterface",
+      "request": "launch",
+      "mainClass": "Interface.MapInterface",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SetInterface",
+      "request": "launch",
+      "mainClass": "Interface.SetInterface",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "ReorderQueueUsingStack",
       "request": "launch",
       "mainClass": "Queue.ReorderQueueUsingStack",

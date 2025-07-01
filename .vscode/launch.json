@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HashMapMethods",
+      "request": "launch",
+      "mainClass": "HashMapMethods",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "MaxFrequency",
       "request": "launch",
       "mainClass": "HashMap.MaxFrequency",

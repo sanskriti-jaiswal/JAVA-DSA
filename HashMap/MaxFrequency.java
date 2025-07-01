@@ -1,13 +1,13 @@
-package HashMap;
+
 import java.util.*;
 public class MaxFrequency {
     public static void main(String[] args) {
         int[] arr={1,4,4,5,6,2,7,8,4,5,4};
         Map<Integer, Integer> freq= new HashMap<>();
         for(int el: arr){
-            if(!freq.containsKey(el)){
+            if(!freq.containsKey(el)){    //for new element- freq= 1
                 freq.put(el,1);
-            }else{
+            }else{                         //update freq for existing element
                 freq.put(el,freq.get(el)+1);
             }
         }

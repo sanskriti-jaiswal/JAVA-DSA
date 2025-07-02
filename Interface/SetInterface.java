@@ -1,7 +1,7 @@
 package Interface;
 import java.util.*;
 public class SetInterface {
-    //HASHSET LINKEDHASHSET TREESET(IN SORTED SET)
+    //HASHSET 
     public static void main(String[] args) {
         // HashSet<Integer> st= new HashSet<>();
         // st.add(1);
@@ -17,6 +17,7 @@ public class SetInterface {
         // System.out.println(st.contains(2));
         // System.out.println(st.size());
 
+        //LINKEDHASHSET TREESET(IN SORTED SET)
         // LinkedHashSet<Integer> st= new LinkedHashSet<>();
         // st.add(1);
         // st.add(1);

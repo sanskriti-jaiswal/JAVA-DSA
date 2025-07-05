@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bfs",
+      "request": "launch",
+      "mainClass": "Trees.bfs",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "PreInPost",
+      "request": "launch",
+      "mainClass": "Trees.PreInPost",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SizeMaxSumHeight",
+      "request": "launch",
+      "mainClass": "Trees.SizeMaxSumHeight",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "Implementation",
+      "request": "launch",
+      "mainClass": "Trees.Implementation",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "MaxNumbers",
       "request": "launch",
       "mainClass": "HashSet.MaxNumbers",

@@ -30,8 +30,6 @@ I'm **Sanskriti Jaiswal**, and this repo is a reflection of my **daily commitmen
 
 It’s more than just code — it’s a **chronicle of growth**, pattern recognition, and consistency. This also helps me revisit concepts quickly and track how I’ve improved over time.
 
----
-
 ## 🚀 Progress
 
 - ✅ Organized topic-wise

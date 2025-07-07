@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ZigZagTraversal",
+      "request": "launch",
+      "mainClass": "Trees.ZigZagTraversal",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "nthLevel",
+      "request": "launch",
+      "mainClass": "Trees.nthLevel",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "bfs",
       "request": "launch",
       "mainClass": "Trees.bfs",

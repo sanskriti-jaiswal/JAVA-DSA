@@ -1,6 +1,7 @@
 package Trees;
 import java.util.*;
 //LEVEL ORDER TRAVERSAL USING QUEUE-> BFS
+// TC= O(n)n
 public class bfs {
     public static class Node{
         int val; //0
@@ -11,7 +12,7 @@ public class bfs {
             this.val=val;
         }
     }
-    public static void breadfirstsearch(Node root){
+    public static void breadfirstsearch(Node root){ //ITERATIVE
         Queue<Node> q =new LinkedList<>();
         if(root!=null) q.add(root);
         while(q.size()>0){

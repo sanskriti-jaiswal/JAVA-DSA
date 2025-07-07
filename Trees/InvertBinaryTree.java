@@ -2,6 +2,8 @@ package Trees;
 import java.util.*;
 public class InvertBinaryTree {
     //   Definition for a binary tree node.
+    //TC= O(n)
+    //SC= O(h), h=height of the tree
   public class TreeNode {
       int val;
       TreeNode left;

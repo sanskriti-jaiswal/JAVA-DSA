@@ -6,7 +6,7 @@ public class ZigZagTraversal {
         Node left; //null
         Node right;  //null
 
-        public Node(int val){     //create constructor
+        public Node(int val){     
             this.val=val;
         }
     }

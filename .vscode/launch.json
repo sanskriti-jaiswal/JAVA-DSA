@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "Sorting.MergeSort",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "LexicographicalOrder",
       "request": "launch",
       "mainClass": "Sorting.LexicographicalOrder",

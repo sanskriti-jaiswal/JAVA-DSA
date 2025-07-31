@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LexicographicalOrder",
+      "request": "launch",
+      "mainClass": "Sorting.LexicographicalOrder",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "MoveZeroesToEnd",
+      "request": "launch",
+      "mainClass": "Sorting.MoveZeroesToEnd",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "InsertionSort",
       "request": "launch",
       "mainClass": "Sorting.InsertionSort",

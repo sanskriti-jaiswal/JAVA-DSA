@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "Sorting.InsertionSort",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "Sorting.SelectionSort",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "Sorting.BubbleSort",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
+      "name": "insideoroutsidecircle",
+      "request": "launch",
+      "mainClass": "insideoroutsidecircle",
+      "projectName": "java-6-sem_a7e76094"
+    },
+    {
+      "type": "java",
       "name": "ZigZagTraversal",
       "request": "launch",
       "mainClass": "Trees.ZigZagTraversal",
